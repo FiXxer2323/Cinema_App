@@ -13,7 +13,7 @@ const mozik = [
 
 const slider = document.querySelector('.slider-container');
 const slides = document.querySelectorAll('.slider-container article');
-const interval = 3000;
+const interval = 4000;
 
 let curr = 0;
 let prev = 0;
