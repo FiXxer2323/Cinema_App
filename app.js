@@ -36,3 +36,7 @@ function showSlide() {
 showSlide();
 setInterval(showSlide, interval);
 
+
+//  ez kell a plakát lapozóhoz
+//document.querySelector(".rec-innercontainer").setAttribute("style", "transform: translate(-480px, 0)"
+
