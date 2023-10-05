@@ -13,7 +13,7 @@ const mozik = [
 
 const slider = document.querySelector('.slider-container');
 const slides = document.querySelectorAll('.slider-container article');
-const interval = 4000;
+const interval = 10000;
 
 let curr = 0;
 let prev = 0;
@@ -34,5 +34,16 @@ function showSlide() {
 }
 
 showSlide();
-setInterval(showSlide, interval);
+let startInterval = setInterval(showSlide, interval);
+
+slider.addEventListener('mouseover', () => {
+  clearInterval(startInterval);
+  
+} );
+
+slider.addEventListener('mouseout', ()=> {
+  startInterval = setInterval(showSlide, interval);
+  
+}
+);
 

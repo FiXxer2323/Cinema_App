@@ -95,6 +95,19 @@ header .slider-container article div {
 
 }
 
+header .slider-container .logo {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 100px;
+    height: 30px;
+    background-image: url(../Images/logo.svg);
+    z-index: 100;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
 
 
 
