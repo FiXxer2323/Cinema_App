@@ -47,3 +47,7 @@ slider.addEventListener('mouseout', ()=> {
 }
 );
 
+
+//  ez kell a plakát lapozóhoz
+//document.querySelector(".rec-innercontainer").setAttribute("style", "transform: translate(-480px, 0)"
+
